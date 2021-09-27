@@ -20,7 +20,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import com.google.android.gms.location.*
-import com.google.android.gms.tasks.OnCompleteListener
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.ktx.database
@@ -30,7 +29,7 @@ import com.google.firebase.ktx.Firebase
 const val PICK_IMAGE = 1
 
 @Suppress("DEPRECATION")
-class MainActivity : AppCompatActivity() {
+class NewLocationActivity : AppCompatActivity() {
 
     val PERMISSION_ID = 44
 
@@ -47,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_new_location)
 
         initClassifier()
 
