@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">GarbageDetectorAndLocator</string>
     <string name="select_photo">Select Photo From Gallery</string>
+    <string name="statusOfImageText">No picture selected</string>
+    <string name="locOntoCloud">Location Uploaded onto Cloud</string>
+    <string name="location">location</string>
 </resources>
