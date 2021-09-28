@@ -6,4 +6,5 @@
     <string name="location">location</string>
     <string name="click_to_add_new_location">Click to add new location</string>
     <string name="click_to_view_all_map_locations">Click to view all map locations</string>
+    <string name="garbageName">GARBAGE LOCATION MARKER</string>
 </resources>

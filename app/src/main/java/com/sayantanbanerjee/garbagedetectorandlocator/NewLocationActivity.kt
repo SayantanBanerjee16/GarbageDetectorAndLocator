@@ -19,6 +19,7 @@ import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import com.google.android.gms.location.*
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.database.DatabaseReference
@@ -111,8 +112,9 @@ class NewLocationActivity : AppCompatActivity() {
                             .setValue(locationData)
                         fabButton.visibility = View.GONE
                         runOnUiThread {
+                            photoHolder.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.basic))
                             Toast.makeText(
-                                baseContext,
+                                this,
                                 "Updated To Cloud",
                                 Toast.LENGTH_LONG
                             ).show()
@@ -163,6 +165,7 @@ class NewLocationActivity : AppCompatActivity() {
             databaseReference.child(getString(R.string.location)).push().setValue(locationData)
             fabButton.visibility = View.GONE
             runOnUiThread {
+                photoHolder.setImageDrawable(ContextCompat.getDrawable(baseContext, R.drawable.basic))
                 Toast.makeText(
                     baseContext,
                     "Updated To Cloud",
