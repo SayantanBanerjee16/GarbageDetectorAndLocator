@@ -25,7 +25,7 @@ This project paper ensures that random people (users) can update the nearby garb
 
 * The second button is to view all the map locations which contains garbage.
 
-<img src="screenshots/Screenshot_20200208-224242.jpg" width="200" height ="400">   <img src="screenshots/Screenshot_20200208-223628.jpg" width="200" height ="400">
+<img src="screenshots/markerone.jpg" width="200" height ="400">   <img src="screenshots/markertwo.jpg" width="200" height ="400">
 
 
 ## Built With
