@@ -11,19 +11,19 @@ This project paper ensures that random people (users) can update the nearby garb
 
 ## Features
 
-* The following is the home page of the application. It contains two buttons, i.e, Click to Add New Location and Click to View All Map Locations.
+* The main application consists of a home page containing two buttons, i.e., Click to Add New Location and View All Map Locations.
 
 <img src="screenshots/home.jpg" width="200" height ="400">
 
-* The first button in home screen redirects to add a new garbage location. After opening it, it ask from user to upload surrounding images. Then it passes through the CNN based model which would classify the photo as Garbage present or not. 
+* The first button on the home screen redirects to add a new garbage location. After opening it, it asks from user to upload surrounding images. Then it passes through the CNN-based model, which would classify the photo as Garbage present or not.
 
 <img src="screenshots/addone.jpg" width="200" height ="400">   <img src="screenshots/addtwo.jpg" width="200" height ="400">
 
-* If the corresponding photo contains garbage in it, then the user gets authorized to upload location, and after successful uploading, it gets saved in cloud database.
+* If the corresponding photo contains garbage, the user gets authorized to upload the location, and after successful uploading, it gets saved in the cloud database.
 
 <img src="screenshots/addthree.jpg" width="200" height ="400">   <img src="screenshots/addfour.jpg" width="200" height ="400">
 
-* The second button is to view all the map locations which contains garbage.
+* The second button is to view all the map locations which contain garbage. The user can zoom in and out to quickly jump from one location to another to have a seamless experience.
 
 <img src="screenshots/markerone.jpg" width="200" height ="400">   <img src="screenshots/markertwo.jpg" width="200" height ="400">
 
